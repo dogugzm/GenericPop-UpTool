@@ -31,7 +31,7 @@ With the Generic Pop-Up Creator, developers can quickly add pop-up functionality
 CreateComponent(popUpScheme.ComponentTitle)
     .WriteCustomData(new DataComponentText(text: "HEADER", color: "#000000", fontSize: 100));
 ```
-![Image Sequence_005_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/d971dd69-1275-4b38-b114-2abd5a70f703)
+![Image Sequence_005_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/03c68c6a-47c1-44c0-9b59-6f18fe1edca0)
 
 ### Adding an Image Component
 ```csharp
@@ -39,7 +39,7 @@ CreateComponent(popUpScheme.ComponentTitle)
 CreateComponent(popUpScheme.ComponentImage)
     .WriteCustomData(new DataComponentImage(path: "dotRed"));
 ```
-![Image Sequence_006_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/eb133d2b-8dc2-408f-b616-c7cf9548f725)
+![Image Sequence_006_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/7d771022-76c5-4c88-9de0-519f289cabf4)
 
 ### Combining Components in a Horizontal Layout
 ```csharp
@@ -58,7 +58,7 @@ firstHorizontalComponent.RunChildComponent(() =>
         .WriteCustomData(new DataComponentText(text: "HEADER TEXT", color: "#000000", fontSize: 80));
 });
 ```
-![Image Sequence_008_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/1ccabcd3-8226-413d-b2ce-86f90666e803)
+![Image Sequence_008_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/d722412d-6637-4267-849e-9b79b5c1c08c)
 
 ### Creating Complex Layouts with Multiple Vertical Components
 ```csharp
@@ -81,7 +81,8 @@ firstHorizontalComponent.RunChildComponent(() =>
     }
 });
 ```
-![Image Sequence_009_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/10dd0862-ab72-4e75-81ab-4554091a7192)
+![Image Sequence_009_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/682f7bd2-33ae-46e0-822e-fa53bd5e92c1)
+
 ### Adding Button Components
 ```csharp
 // Activate button parent object and set alignment to horizontal
@@ -95,9 +96,7 @@ buttonComp.SetCustomMethod(() => OnButtonClicked());
 // Create another button component (customize as needed)
 CreateComponent(popUpScheme.ComponentButton, popUpScheme.HorizontalButtonParent.transform); 
 ```
-![Image Sequence_011_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/61a08bdc-0e54-4c10-8a29-06b5eeb32e1f)
-
-
+![Image Sequence_011_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/bcb46436-7084-4ac5-860a-53abf0a6282d)
 ### Adding Input Components
 ```csharp
 // Adding Input Components
@@ -107,7 +106,7 @@ CreateComponent(popUpScheme.ComponentInput)
         new DataComponentText(text: "", alignmentOption: (int?)TextAlignmentOptions.Left),
         inputType: (int)InputFieldType.SMALL));
 ```
-![Image Sequence_012_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/fbf4dd2e-18ba-45a0-a160-7565fde5ccf2)
+![Image Sequence_012_0000](https://github.com/dogugzm/GenericPopUp/assets/30691424/f788c6ab-969a-45d2-bcc8-95e9fa4c52c5)
 
 
 
