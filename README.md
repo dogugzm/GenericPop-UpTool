@@ -17,6 +17,8 @@ With the Generic Pop-Up Creator, developers can quickly add pop-up functionality
 - **Responsive Design**: Ensure your pop-ups look great on any screen size or resolution.
 - **Event Handling**: Seamlessly handle user interactions with customizable event handlers for buttons and other UI elements.
 - **Scripting Support**: Access and control pop-up functionality through C# scripts for advanced customization.
+- **Easily Configurable**: All components have their own data class that means they are easily configurable through json, message packs, scriptable objects or txt files.
+
 
 ## Getting Started
 
